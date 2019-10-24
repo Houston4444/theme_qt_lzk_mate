@@ -1,0 +1,6 @@
+
+if [[ "$XDG_CURRENT_DESKTOP" == MATE ]];then
+    export QT_QPA_PLATFORMTHEME=qt5ct
+    export QT_PLATFORMTHEME=qt5ct
+    export QT_PLATFORM_PLUGIN=qt5ct
+fi
